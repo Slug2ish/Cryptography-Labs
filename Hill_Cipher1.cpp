@@ -260,7 +260,7 @@ string decrypt(string ct, int n)
 	return pt;
 }
 
-int main(void)
+int main()
 {
 	string pt;
 	int n;
