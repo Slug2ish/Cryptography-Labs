@@ -288,3 +288,37 @@ int main()
 	string dt = decrypt(ct, n);
 	cout << "Decrypted text: " << dt << endl;
 }
+
+
+// OUTPUT
+// Enter the text to be encrypted: abhishek
+// Enter order of key matrix: 2
+// Enter key matrix: 
+// 3 8 
+// 4 7
+
+// Original text: abhishek
+
+// Text Matrix:
+// 0       1
+// 7       8
+// 18      7
+// 4       10
+
+// Cipher Matrix:
+// 4       7
+// 1       8
+// 4       11
+// 0       24
+// Encrypted text: ehbielay
+// Determinant: 15
+// Determinant Inverse: 7
+// Adjoint Matrix:
+// 7       -8
+// -4      3
+
+// Key Inverse:
+// 23      22
+// 24      21
+
+// Decrypted text: abhishek
