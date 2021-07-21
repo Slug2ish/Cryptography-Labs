@@ -144,3 +144,35 @@ int main()
     string decrypted_text = decrypt(cipher_text);
     cout << "\nDecryption : " << decrypted_text;
 }
+
+// OUTPUT
+// plain_text: 1000100010001110
+
+// key1: 10101110
+// key2: 01100001
+// key3: 11101001
+// Round 1
+// Round Function1 : 00100000
+// L1 : 10001110
+// R1 : 10101000
+// Round 2
+// Round Function2 : 11001001
+// L2 : 10101000
+// R2 : 01000111
+// Round 3
+// Round Function3 : 10101110
+// L3 : 01000111
+// R3 : 00000110/nEncryption : 0000011001000111
+// Round 1
+// Round Function1 : 10101110
+// L1 : 01000111
+// R1 : 10101000
+// Round 2
+// Round Function2 : 11001001
+// L2 : 10101000
+// R2 : 10001110
+// Round 3
+// Round Function3 : 00100000
+// L3 : 10001110
+// R3 : 10001000
+// Decryption : 1000100010001110
