@@ -139,7 +139,7 @@ int main()
     cout << "\nkey3: " << key3;
 
     string cipher_text = encrypt(plain_text);
-    cout << "/nEncryption : " << cipher_text;
+    cout << "\nEncryption : " << cipher_text;
 
     string decrypted_text = decrypt(cipher_text);
     cout << "\nDecryption : " << decrypted_text;
@@ -162,7 +162,8 @@ int main()
 // Round 3
 // Round Function3 : 10101110
 // L3 : 01000111
-// R3 : 00000110/nEncryption : 0000011001000111
+// R3 : 00000110
+// Encryption : 0000011001000111
 // Round 1
 // Round Function1 : 10101110
 // L1 : 01000111
